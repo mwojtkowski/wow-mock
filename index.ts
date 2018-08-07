@@ -287,7 +287,7 @@ export function UnitPower(unit: string, type: number, segments?: number) { retur
 export function GetPowerRegen():[number, number] {return [0, 0]}
 export function GetManaRegen():[number, number] { return [0, 0]}
 export function GetSpellPowerCost(spellId:number): LuaArray<{cost:number, type:number}> { return {1:{cost:0, type: 0}}}
-export function UnitPowerType(unit: string):[number,number] { return [0,0]}
+export function UnitPowerType(unit: string, powerId?: number):[number,string] { return [0,'']}
 export function IsInGroup(filter?: number){ return false}
 export function IsInGuild() { return false;}
 export function IsInInstance(){return false}

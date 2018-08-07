@@ -243,7 +243,7 @@ function GetManaRegen() { return [0, 0]; }
 exports.GetManaRegen = GetManaRegen;
 function GetSpellPowerCost(spellId) { return { 1: { cost: 0, type: 0 } }; }
 exports.GetSpellPowerCost = GetSpellPowerCost;
-function UnitPowerType(unit) { return [0, 0]; }
+function UnitPowerType(unit, powerId) { return [0, '']; }
 exports.UnitPowerType = UnitPowerType;
 function IsInGroup(filter) { return false; }
 exports.IsInGroup = IsInGroup;

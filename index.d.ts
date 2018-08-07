@@ -189,7 +189,7 @@ export declare function GetSpellPowerCost(spellId: number): LuaArray<{
     cost: number;
     type: number;
 }>;
-export declare function UnitPowerType(unit: string): [number, number];
+export declare function UnitPowerType(unit: string, powerId?: number): [number, string];
 export declare function IsInGroup(filter?: number): boolean;
 export declare function IsInGuild(): boolean;
 export declare function IsInInstance(): boolean;
