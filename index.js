@@ -158,6 +158,8 @@ class FakeDropdown extends FakeFrame {
 }
 exports.FakeDropdown = FakeDropdown;
 // WOW global functions
+function GetNumSpecializations(isInspect, isPet) { return 0; }
+exports.GetNumSpecializations = GetNumSpecializations;
 function GetInventorySlotInfo(slotName) { return [0, '']; }
 exports.GetInventorySlotInfo = GetInventorySlotInfo;
 function GetItemStats(itemLink, statTable) { return []; }

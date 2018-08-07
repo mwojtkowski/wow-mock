@@ -245,6 +245,7 @@ export class FakeDropdown extends FakeFrame implements UIDropdown {
 }
 
 // WOW global functions
+export function GetNumSpecializations(isInspect?: boolean, isPet?: boolean) : number {return 0;}
 export function GetInventorySlotInfo(slotName: string): [number, string] { return [0, '']; }
 export function GetItemStats(itemLink: string, statTable?: any[]): any[] {return [];}
 export function GetInventoryItemLink(unitId: string, slotId: number) : string { return '';}

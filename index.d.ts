@@ -144,6 +144,7 @@ export declare class FakeCheckButton extends FakeFrame implements UICheckButton 
 }
 export declare class FakeDropdown extends FakeFrame implements UIDropdown {
 }
+export declare function GetNumSpecializations(isInspect?: boolean, isPet?: boolean): number;
 export declare function GetInventorySlotInfo(slotName: string): [number, string];
 export declare function GetItemStats(itemLink: string, statTable?: any[]): any[];
 export declare function GetInventoryItemLink(unitId: string, slotId: number): string;
